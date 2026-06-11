@@ -1,54 +1,121 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Para Bake</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para mi cariño</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <canvas id="matrix"></canvas>
 
   <main class="screen">
     <section class="slide active">
-      <p class="mini">SYSTEM BOOTING...</p>
-      <h1>ACCESS GRANTED</h1>
+      <p class="mini">INICIANDO SISTEMA...</p>
+      <div class="bar"><span></span></div>
+      <p class="msg small">Preparando algo especial para ti...</p>
     </section>
 
     <section class="slide">
-      <p class="mini">Searching for...</p>
-      <h1>BAKE</h1>
-      <p class="msg">user found ❤</p>
+      <div class="layout">
+        <div>
+          <p class="mini">¿Quién es ese Pokémon...?</p>
+          <div class="pixel-heart">❓</div>
+          <p class="msg small">Mmm... se parece a alguien 🤔</p>
+        </div>
+        <img class="photo" src="huevo.png" alt="Foto especial">
+      </div>
     </section>
 
     <section class="slide">
-      <p class="mini">Level Up!</p>
-      <h1>19 ➜ 20</h1>
-      <p class="msg">new chapter unlocked</p>
+      <div class="layout">
+        <div>
+          <p class="mini">¡Es...!</p>
+          <h1 class="script">BAKESONNNN ❤️</h1>
+          <p class="msg small">
+            Tipo: Amorcito <br>
+            Nivel: 20 <br>
+            Habilidad especial: hacerme sonreír 😌
+          </p>
+          <div class="pixel-heart">♡</div>
+        </div>
+        <img class="photo" src="selfie.png" alt="Foto especial">
+      </div>
     </section>
 
     <section class="slide">
-      <div class="heart">❤</div>
-      <h1>HAPPY BIRTHDAY</h1>
-      <h2>BAKE</h2>
+      <div class="layout">
+        <div>
+          <p class="mini">¡BAKESONNNN evolucionó!</p>
+          <h1>19 ➜ 20</h1>
+          <p class="msg small">✨ Nueva forma desbloqueada ✨</p>
+          <div class="bar full"><span></span></div>
+        </div>
+        <img class="photo" src="cabello.png" alt="Foto especial">
+      </div>
+    </section>
+
+    <section class="slide center">
+      <div class="heart-big">❤</div>
+      <h1 class="script">Para ti,</h1>
+      <h2>con todo mi amor</h2>
+    </section>
+
+    <section class="slide center">
+      <p class="mini">♡ FELIZ ♡</p>
+      <h1>CUMPLEAÑOS</h1>
+      <h1 class="script">Mi amorcito</h1>
+      <div class="balloons">❤ ❤ ❤</div>
     </section>
 
     <section class="slide">
-      <h1>20 YEARS</h1>
-      <p class="msg">of being amazing ✨</p>
-      <p class="msg">hope this little detail makes you smile.</p>
+      <div class="layout">
+        <div>
+          <h1 class="script">20 años</h1>
+          <p class="msg">de risas,<br>aventuras,<br>locuras y<br>recuerdos inolvidables.</p>
+        </div>
+        <img class="photo" src="espejo.png" alt="Foto especial">
+      </div>
     </section>
 
     <section class="slide">
-      <h1>You unlocked:</h1>
-      <p class="reward">∞ smiles</p>
-      <p class="reward">∞ memories</p>
-      <p class="reward">∞ adventures</p>
-      <div class="small-heart">❤</div>
+      <div class="layout">
+        <div>
+          <p class="msg">Hoy no es un día cualquiera.</p>
+          <p class="msg">Es el día en que llegaste a este mundo y lo hiciste mucho mejor.</p>
+          <p class="msg">Gracias por ser como eres.</p>
+          <p class="msg">Te amooooo muuuuucho. ♡</p>
+        </div>
+        <img class="photo note" src="dibujo.png" alt="Dibujo especial">
+      </div>
+    </section>
+
+    <section class="slide">
+      <div class="layout">
+        <div>
+          <p class="msg">Gracias por los momentos compartidos,</p>
+          <p class="msg">por las risas,</p>
+          <p class="msg">por tu cariño</p>
+          <p class="msg">y por cada recuerdo.</p>
+          <p class="msg">Espero que este nuevo año te traiga mucha felicidad, éxitos y nuevas aventuras.</p>
+        </div>
+        <img class="photo" src="juntos.png" alt="Foto juntos">
+      </div>
+    </section>
+
+    <section class="slide center">
+      <h1 class="script">Feliz cumpleaños,</h1>
+      <h1 class="script">mi bakee. ♡</h1>
+      <div class="heart-big">❤</div>
+      <p class="msg final">Con todo mi amor</p>
     </section>
   </main>
 
-  <button id="start">Toca para iniciar</button>
+  <div id="controls">
+    <button id="prev">⬅ Atrás</button>
+    <span id="counter">1 / 10</span>
+    <button id="next">Siguiente ➡</button>
+  </div>
 
   <script src="script.js"></script>
 </body>
