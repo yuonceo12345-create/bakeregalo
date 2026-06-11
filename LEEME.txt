@@ -1,0 +1,16 @@
+PASOS PARA USARLO
+
+1. Descarga y descomprime el ZIP.
+2. Abre el archivo index.html con Chrome para probarlo.
+3. Para publicarlo gratis:
+   - Entra a https://app.netlify.com/drop
+   - Arrastra la CARPETA completa o este ZIP.
+   - Netlify te dará un link.
+4. Con ese link crea un QR:
+   - Puedes buscar "generador de QR" en Google.
+   - Pegas el link.
+   - Descargas el QR.
+5. Imprime el QR y pégalo dentro de la cajita.
+
+Tip:
+En celular se ve mejor en pantalla completa. Si quieres cambiar textos, edita index.html.
